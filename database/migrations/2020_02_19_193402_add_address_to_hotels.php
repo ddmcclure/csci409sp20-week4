@@ -8,7 +8,7 @@ class AddAddressToHotels extends Migration
 {
     /**
      * Run the migrations.
-     *
+     * for updated hotels schema commit
      * @return void
      */
     public function up()
