@@ -10,7 +10,12 @@ class Hotel extends Model
         'name',
         'location',
         'description',
-        'image'
+        'image',
+        'address_1',
+        'address_2',
+        'city',
+        'state',
+        'zip'
     ];
 
     public function rooms() {
