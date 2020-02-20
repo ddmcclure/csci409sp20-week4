@@ -20,6 +20,7 @@ class CreateRoomsTable extends Migration
             $table->string('type');
             $table->string('description');
             $table->decimal('price', 10, 2);
+            $table->string('image');
             $table->timestamps();
         });
     }

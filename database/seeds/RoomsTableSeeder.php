@@ -43,11 +43,11 @@ class RoomsTableSeeder extends Seeder
                 'image' => 'https://placeimg.com/640/480/arch'
             ],
             [
-            'hotel_id' => '3',
-            'type' => 'Suite',
-            'description' => 'One ultra wide king bed, full kitchen.',
-            'price' => '399',
-            'image' => 'https://placeimg.com/640/480/arch'
+                'hotel_id' => '3',
+                'type' => 'Suite',
+                'description' => 'One ultra wide king bed, full kitchen.',
+                'price' => '399',
+                'image' => 'https://placeimg.com/640/480/arch'
             ]
         ];
 
