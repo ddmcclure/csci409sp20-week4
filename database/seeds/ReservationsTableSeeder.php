@@ -18,36 +18,36 @@ class ReservationsTableSeeder extends Seeder
                 'user_id' => '1',
                 'room_id' => '1',
                 'num_of_guests' => '4',
-                'arrival' => '5/18/2020',
-                'departure' => '5/28/2020'
+                'arrival' => '2020/5/18',
+                'departure' => '2020/5/28'
             ],
             [
                 'user_id' => '1',
                 'room_id' => '2',
                 'num_of_guests' => '1',
-                'arrival' => '5/10/2020',
-                'departure' => '5/12/2020'
+                'arrival' => '2020/5/10',
+                'departure' => '2020/5/12'
             ],
             [
                 'user_id' => '1',
                 'room_id' => '3',
                 'num_of_guests' => '3',
-                'arrival' => '5/6/2020',
-                'departure' => '5/7/2020'
+                'arrival' => '2020/5/6',
+                'departure' => '2020/5/7'
             ],
             [
                 'user_id' => '1',
                 'room_id' => '4',
                 'num_of_guests' => '2',
-                'arrival' => '5/12/2020',
-                'departure' => '5/15/2020'
+                'arrival' => '2020/5/12',
+                'departure' => '2020/5/15'
             ],
             [
                 'user_id' => '1',
                 'room_id' => '2',
                 'num_of_guests' => '2',
-                'arrival' => '5/20/2020',
-                'departure' => '5/24/2020'
+                'arrival' => '2020/5/20',
+                'departure' => '2020/5/24'
             ]
         ];
 
