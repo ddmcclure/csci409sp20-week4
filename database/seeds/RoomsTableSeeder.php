@@ -23,29 +23,29 @@ class RoomsTableSeeder extends Seeder
                 'hotel_id' => '1',
                 'type' => 'Double',
                 'description' => 'Two queen beds.',
-                'price' => '150',
-                'image' => 'image2'
+                'price' => '200',
+                'image' => 'https://placeimg.com/640/480/arch'
             ],
             [
                 'hotel_id' => '2',
-                'type' => 'No Bed',
-                'description' => 'Empty Room',
-                'price' => '10',
-                'image' => 'image3'
+                'type' => 'Suite',
+                'description' => 'International luxurious room.',
+                'price' => '350',
+                'image' => 'https://placeimg.com/640/480/arch'
             ],
             [
-                'hotel_id' => '3',
-                'type' => 'Five Bed',
-                'description' => 'It has five beds',
-                'price' => '350',
-                'image' => 'image4'
+                'hotel_id' => '2',
+                'type' => 'Economy',
+                'description' => 'One queen bed, mini fridge.',
+                'price' => '87.99',
+                'image' => 'https://placeimg.com/640/480/arch'
             ],
             [
             'hotel_id' => '3',
-            'type' => 'Five Bed',
-            'description' => 'It has five beds',
-            'price' => '350',
-            'image' => 'image4'
+            'type' => 'Suite',
+            'description' => 'One ultra wide king bed, full kitchen.',
+            'price' => '399',
+            'image' => 'https://placeimg.com/640/480/arch'
             ]
         ];
 
