@@ -14,31 +14,38 @@ class RoomsTableSeeder extends Seeder
         $rooms = [
             [
                 'hotel_id' => '1',
-                'type' => 'One Bed',
-                'description' => 'It has one bed',
-                'price' => '100',
-                'image' => 'image'
+                'type' => 'Luxury Suite',
+                'description' => '2000 sqft, 3 king sized beds, full kitchen.',
+                'price' => '980',
+                'image' => 'https://placeimg.com/640/480/arch'
             ],
             [
                 'hotel_id' => '1',
-                'type' => 'Two Bed',
-                'description' => 'It has two beds',
+                'type' => 'Double',
+                'description' => 'Two queen beds.',
                 'price' => '150',
                 'image' => 'image2'
             ],
             [
-                'hotel_id' => '1',
+                'hotel_id' => '2',
                 'type' => 'No Bed',
                 'description' => 'Empty Room',
                 'price' => '10',
                 'image' => 'image3'
             ],
             [
-                'hotel_id' => '1',
+                'hotel_id' => '3',
                 'type' => 'Five Bed',
                 'description' => 'It has five beds',
                 'price' => '350',
                 'image' => 'image4'
+            ],
+            [
+            'hotel_id' => '3',
+            'type' => 'Five Bed',
+            'description' => 'It has five beds',
+            'price' => '350',
+            'image' => 'image4'
             ]
         ];
 
