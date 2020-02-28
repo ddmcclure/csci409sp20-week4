@@ -29,19 +29,19 @@ Route::prefix('reservations')->group(function () {
    Route::get('/reservations/new', function () {
        return 'Showing form to create reservations';
    });
-   Route::get('/reservations/{id}', function () {
+   Route::get('/reservations/{id}', function ($id) {
        return 'Updating reservation id';
    });
-   Route::get('/reservations/{id}/edit', function () {
+   Route::get('/reservations/{id}/edit', function ($id) {
        return 'Showing edit form for reservation id';
    });
    Route::post('/reservations', function () {
        return 'Creating reservation';
    });
-   Route::put('/reservations/{id}', function () {
+   Route::put('/reservations/{id}', function ($id) {
        return 'Updating reservation id';
    });
-   Route::delete('/reservations/{id}', function () {
+   Route::delete('/reservations/{id}', function ($id) {
        return 'Deleting reservation id';
    });
 });
