@@ -12,5 +12,36 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return '/route';
+});
+
+Route::get('/hotels', function () {
+    return '/hotels route';
+});
+
+Route::prefix('reservations')->group(function () {
+   Route::get('/', function () {
+       return 'Showing users homepage';
+   });
+   Route::get('/reservations', function () {
+       return 'Showing users reservations';
+    });
+   Route::get('/reservations/new', function () {
+       return 'Showing form to create reservations';
+   });
+   Route::get('/reservations/{id}', function () {
+       return 'Updating reservation id';
+   });
+   Route::get('/reservations/{id}/edit', function () {
+       return 'Showing edit form for reservation id';
+   });
+   Route::post('/reservations', function () {
+       return 'Creating reservation';
+   });
+   Route::put('/reservations/{id}', function () {
+       return 'Updating reservation id';
+   });
+   Route::delete('/reservations/{id}', function () {
+       return 'Deleting reservation id';
+   });
 });
