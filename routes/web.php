@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::get('/hotels', 'HotelController@index');
 
-Route:resource('reservations', 'ReservationsController');
 Route::get('/reservations', 'ReservationController@index');
 Route::get('/reservations/create/{id}', 'ReservationController@create');
+
+Route:resource('reservations', 'ReservationsController');
