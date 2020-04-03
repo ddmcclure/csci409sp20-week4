@@ -14,8 +14,7 @@ class ReservationController extends Controller
      */
     public function index()
     {
-        $reservations = App\Models\Reservation::orderBy('arrival')
-            ->get();
+        $reservations = Reservation::orderBy('arrival', 'asc')->get();
         return view('reservations')->with('reservations', $reservations);
     }
 

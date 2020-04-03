@@ -17,7 +17,10 @@ Route::get('/', function () {
 
 Route::get('/hotels', 'HotelController@index');
 
-Route::get('/reservations', 'ReservationController@index');
-Route::get('/reservations/create/{id}', 'ReservationController@create');
-
-Route:resource('reservations', 'ReservationsController');
+Route::group(['prefix' => 'dashboard'], function() {
+    Route::get('/', function(){
+        return '/dashboard route';
+    });
+    Route::get('reservations/create/{id}', 'ReservationController@create');
+    Route::resource('reservations', 'ReservationController')->except('create');
+});
