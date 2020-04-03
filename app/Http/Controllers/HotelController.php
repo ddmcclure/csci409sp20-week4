@@ -12,5 +12,14 @@ class HotelController extends Controller
         $hotels = Hotel::all();
         return view('hotels')->with('hotels', $hotels);
     }
+
+    public function create(Request $request) {
+        return view('hotelform', $request);
+    }
+
+    public function store(Request $request) {
+        Hotel::create(['field1' => $request->input('form_field_1'),
+        'field2' => $request->input('form_field_2')]);
+    }
 }
 

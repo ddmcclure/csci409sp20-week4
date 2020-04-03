@@ -1,4 +1,5 @@
 <form action="/hotels/store" method="post">
+    @csrf
     Name<input type="text" id="name" name="name"><br>
     Address 1<input type="text" id="address_1" name="address_1"><br>
     Address 2<input type="text" id="address_2" name="address_2"><br>
