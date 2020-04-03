@@ -20,6 +20,7 @@ class HotelController extends Controller
     public function store(Request $request) {
         Hotel::create(['field1' => $request->input('form_field_1'),
         'field2' => $request->input('form_field_2')]);
+        return redirect('/hotels');
     }
 }
 
