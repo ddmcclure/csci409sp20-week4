@@ -16,6 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/hotels', 'HotelController@index');
+Route::get('/hotels/create', 'HotelController@create');
+Route::post('/hotels/store', 'HotelController@store');
 
 Route::group(['prefix' => 'dashboard'], function() {
     Route::get('/', function(){
